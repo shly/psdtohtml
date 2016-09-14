@@ -417,3 +417,16 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+
+/* 一些常用功能 */
+.clearfloat{
+  zoom:1;/*ie下触发layout*/
+}
+.clearfloat:after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  clear: both;
+}
