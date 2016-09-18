@@ -18,3 +18,119 @@
 	top: 208px;
 	margin-left: -388px;
 }
+.index-banner-text .text-logo{
+	width: 776px;
+	height: 117px;
+	background:url(../img/text-logo.png) no-repeat;
+	overflow: hidden;
+}
+.index-banner-text .text-info{
+	margin-top: 20px;
+	text-align: center; 
+	color: #fff;
+}
+.index-banner-text .line{
+	display: inline-block;
+	width: 40px;
+	border-top: 1px solid #fff;
+	vertical-align: middle;
+}
+.index-banner-text .line-left{
+	margin-right: 25px;
+}
+.index-banner-text .line-right{
+	margin-left: 25px;
+}
+/*菜单*/
+.index-menu{
+	position: relative;
+	border-top: 4px solid #f34949;
+}
+.index-menu .menu-tips{
+	position: absolute;
+	width: 156px;
+	height: 75px;
+	top: 0px;
+	left: 50%;
+	margin-left: -78px;
+	background-color: #f34949;
+	color: #fff;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+
+}
+.index-menu .menu-tips:after{
+	position: absolute;
+	content: ' ';
+	left: 0;
+	bottom: 0;	
+	width: 0;
+	height: 0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid #fff;
+}
+.menu-list{
+	margin-top: 159px;
+	overflow: hidden;
+}
+.menu-list .menu-item{
+	float: left;
+	width: 520px;
+	margin-right: 60px;
+	margin-bottom: 56px;
+}
+.menu-list ul{
+	width: 1160px;
+}
+.menu-list .menu-item a{
+	color: #555555;
+}
+.menu-list .menu-item .title,.menu-list .menu-item .line{
+	float: left;
+
+}
+.menu-list .menu-item .price{
+	float: right;
+}
+.menu-list .menu-item .title{
+	width: 230px;
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+	margin-right: 20px;
+}
+.menu-list .menu-item .line{
+	margin-top: 10px;
+	width: 192px;
+	border-top: 1px solid #e3e1e1;
+	margin-right: 40px;
+	vertical-align: middle;
+}
+.menu-list .menu-item .title .comment{
+	margin-top: 4px;
+	color: #b7b7b7;
+	font-size:12px;
+}
+.index-menu .menu-more-button{
+	width: 134px;
+	height: 32px;
+	border:1px solid #b7b7b7;
+	margin:0 auto;
+	color: #b7b7b7;
+	line-height: 32px;
+	padding-left: 16px;
+	font-size: 14px;
+}
+.index-menu .menu-more-button .split{
+	margin-left: 13px;
+	margin-right: 10px;
+}
+.index-menu .menu-more-button .icon{
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+	background:url(../img/arrow-down.png) no-repeat;
+	margin-left: 10px;
+}

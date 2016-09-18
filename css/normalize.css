@@ -431,6 +431,9 @@ textarea {
   clear: both;
   overflow: hidden;
 }
+ul{
+  padding: 0px;
+}
 li{
   list-style: none;
 }
@@ -440,7 +443,9 @@ a{
   color: #fff;
 }
 p{
-  margin:0px;
-  padding: 0px;
   line-height: 28px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0px;
+    padding: 0px;
 }
