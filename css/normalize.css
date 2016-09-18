@@ -420,13 +420,27 @@ textarea {
 
 
 /* 一些常用功能 */
-.clearfloat{
+.clearFloat{
   zoom:1;/*ie下触发layout*/
 }
-.clearfloat:after{
+.clearFloat:after{
   content: "";
   display: block;
   width: 0;
   height: 0;
   clear: both;
+  overflow: hidden;
+}
+li{
+  list-style: none;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+p{
+  margin:0px;
+  padding: 0px;
+  line-height: 28px;
 }
