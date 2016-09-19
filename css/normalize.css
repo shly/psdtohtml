@@ -449,3 +449,6 @@ h1,h2,h3,h4,h5,h6,p{
     margin:0px;
     padding: 0px;
 }
+img{
+  display: block;/*img默认有四像素偏移*/
+}
