@@ -18,5 +18,6 @@ Ctrl+D 选中光标所占的文本，继续操作则会选中下一个相同的�
  
  li float时，两个li之间有空隙，每行最后一个li应该贴合右边缘，这个时候可以将ul的宽度设为外面盒子的宽度+margin，就不用使用css选择每行的最后一个盒子清除margin了。
  
- ### 预览
+ ## 预览
+
  http://slygg.cn/psdtohtml/index.html
